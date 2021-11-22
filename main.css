@@ -1,0 +1,55 @@
+html {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    background: rgb(242, 247, 247);
+    color: rgb(134, 157, 160);
+}
+
+#wrapper {
+    height: 100vh;
+    max-height: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.fade-in-out, .fade-in {
+    display: none;
+}
+
+div {
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 50px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    width: 150px;
+    float: left;
+    margin: 0 20px;
+    background: rgb(204, 221, 223);
+    padding: 10px 0;
+    font-size: 1.2rem;
+    color: rgb(50, 113, 122);
+    border-radius: 5px;
+}
+
+.small {
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
